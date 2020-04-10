@@ -1,0 +1,181 @@
+<div id="wrapper">
+
+    <aside id="sidebar-wrapper">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+          <div class="navbar-nav">
+                <div class="pad nav-item nav-link " >Departments</div>
+                <div class="pad nav-item nav-link" >Apply For No Dues</div>
+                <div class="pad nav-item nav-link" >Status</div>
+                <div class="pad nav-item nav-link " >Remarks</div>
+              </div>
+              
+          </nav>
+
+        
+      <ul class="sidebar-nav">
+        <li>
+            <a href="#"><div class="row">
+            <div class="col-3">
+            <i class="fa fa-balance-scale-left"></i>Physics Lab
+            </div>
+            <div class="col-3"> <button type="button" class="btn btn-outline-success " (click)="apply()">{{Apply}}</button>
+            </div>
+            <div class="col-3"> 
+                <span [ngClass]="Apply == 'Applied' ? 'circle-red' : 'circle'"></span>
+                <span class="circle"></span>
+                <span class="circle"></span>
+                
+            </div>
+            <div class="col-3">
+            </div>
+          </div>
+          </a>
+        </li>
+        <li>
+          <a href="#"><div class="row">
+            <div class="col-3">
+                <i class="fa  fa-atom"></i>Chemistry Lab</div>
+                <div class="col-3"> <button type="button" class="btn btn-outline-success ">Apply</button>
+                </div>
+                <div class="col-3">
+                <span class="circle"></span>
+                <span class="circle"></span>
+                <span class="circle"></span>
+             </div>
+                <div class="col-3">
+                </div>
+              </div></a>
+        </li>
+        <li>
+          <a href="#"><div class="row">
+            <div class="col-3"><i class="fa fa-laptop-code"></i>Computer Lab</div>
+            <div class="col-3"> <button type="button" class="btn btn-outline-success ">Apply</button>
+            </div>
+            <div class="col-3"> <span class="circle"></span>
+                <span class="circle"></span>
+                <span class="circle"></span> </div>
+            <div class="col-3">
+            </div>
+          </div></a>
+        </li>
+        <li>
+            <a href="#"><div class="row">
+                <div class="col-3"><i class="fa fa-bolt"></i> Workshop Lab</div>
+                <div class="col-3"> <button type="button" class="btn btn-outline-success ">Apply</button>
+                </div>
+                <div class="col-3"> <span class="circle"></span>
+                    <span class="circle"></span>
+                    <span class="circle"></span> </div>
+                <div class="col-3">
+                </div>
+              </div></a>
+        </li>
+        <li>
+            <a href="#"><div class="row">
+                <div class="col-3"><i class="fa fa-hotel"></i> Hostel</div>
+                <div class="col-3"> <button type="button" class="btn btn-outline-success ">Apply</button>
+                </div>
+                <div class="col-3"> <span class="circle"></span>
+                    <span class="circle"></span>
+                    <span class="circle"></span> </div>
+                <div class="col-3">
+                </div>
+              </div></a>
+        </li>
+        <li>
+            <a href="#"><div class="row">
+                <div class="col-3"><i class="fa fa-prescription-bottle-alt"></i> MI Room</div>
+                <div class="col-3"> <button type="button" class="btn btn-outline-success ">Apply</button>
+                </div>
+                <div class="col-3"> <span class="circle"></span>
+                    <span class="circle"></span>
+                    <span class="circle"></span> </div>
+                <div class="col-3">
+                </div>
+              </div></a>
+        </li>
+        <li>
+            <a href="#"><div class="row">
+                <div class="col-3"><i class="fa fa-user-plus"></i> SEE Manager</div>
+                <div class="col-3"> <button type="button" class="btn btn-outline-success ">Apply</button>
+                </div>
+                <div class="col-3"> <span class="circle"></span>
+                    <span class="circle"></span>
+                    <span class="circle"></span> </div>
+                <div class="col-3">
+                </div>
+              </div></a>
+        </li>
+        <li>
+            <a href="#"><div class="row">
+                <div class="col-3"><i class="fa fa-user-shield"></i>Admin Department</div>
+                <div class="col-3"> <button type="button" class="btn btn-outline-success ">Apply</button>
+                </div>
+                <div class="col-3"> <span class="circle"></span>
+                    <span class="circle"></span>
+                    <span class="circle"></span> </div>
+                <div class="col-3">
+                </div>
+              </div></a>
+        </li>
+        <li>
+            <a href="#"><div class="row">
+                <div class="col-3"><i class="fa fa-graduation-cap"></i>Carrer Service</div>
+                <div class="col-3"> <button type="button" class="btn btn-outline-success ">Apply</button>
+                </div>
+                <div class="col-3"> <span class="circle"></span>
+                    <span class="circle"></span>
+                    <span class="circle"></span> </div>
+                <div class="col-3">
+                </div>
+              </div></a>
+        </li>
+        <li>
+            <a href="#"><div class="row">
+                <div class="col-3"><i class="fa fa-book"></i>Library</div>
+                <div class="col-3"> <button type="button" class="btn btn-outline-success ">Apply</button>
+                </div>
+                <div class="col-3"> <span class="circle"></span>
+                    <span class="circle"></span>
+                    <span class="circle"></span> </div>
+                <div class="col-3">
+                </div>
+              </div></a>
+        </li>
+        <li>
+            <a href="#"><div class="row">
+                <div class="col-3"><i class="fa fa-qrcode"></i>IT Department</div>
+                <div class="col-3"> <button type="button" class="btn btn-outline-success ">Apply</button>
+                </div>
+                <div class="col-3"> <span class="circle"></span>
+                    <span class="circle"></span>
+                    <span class="circle"></span> </div>
+                <div class="col-3">
+                </div>
+              </div></a>
+        </li>
+        <li>
+            <a href="#"><div class="row">
+                <div class="col-3"><i class="fa fa-dollar-sign"></i>Finance</div>
+                <div class="col-3"> <button type="button" class="btn btn-outline-success ">Apply</button>
+                </div>
+                <div class="col-3"> 
+                   
+                    <span class="circle"></span>
+                    <span class="circle"></span>
+                    <span class="circle"></span>  
+                </div>
+                <div class="col-3">
+                </div>
+              </div></a>
+        </li>
+      </ul>
+      <div class="vl"></div>
+    </aside>
+    
+  
+
+   
+  
+  </div>
